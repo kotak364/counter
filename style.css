@@ -1,8 +1,16 @@
+
+/* ==== css reset start ===  */
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
+
+/* ==== css reset end ===  */
+
+
+/* ==== general styling start ===  */
 
 html{
     font-size:10px;
@@ -19,6 +27,10 @@ body {
     
 
 }
+/* ==== general styling end ===  */
+
+/* ==== typography start ===  */
+
 
 .number{
     font-size:5rem;
@@ -30,6 +42,18 @@ body {
     border-radius: 1rem;
 }
 
+.heading{
+    color:#19e81f;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+/* ==== typography end ===  */
+
+
+/* ==== button part start ===  */
 
 .btn{
     padding:1rem 1rem; 
@@ -47,10 +71,4 @@ body {
     background-color: #cc1616;
 }
 
-.heading{
-    color:#19e81f;
-    font-size: 4rem;
-    text-align: center;
-    margin-bottom: 1rem;
-
-}
+/* ==== button part end ===  */
